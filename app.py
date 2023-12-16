@@ -163,7 +163,7 @@ sd_simplified = sd_trans[features_to_keep]
 #sd_simplified.head()
 
 # save as csv
-path = "/notebooks/"
+path = "notebooks/"
 
 sd_simplified.to_csv(path + 'sd_simplified')
 
