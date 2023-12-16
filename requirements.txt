@@ -1,7 +1,6 @@
 numpy
 seaborn
 matplotlib
-click==8.0.4
 Typer==0.3.2
 
 
