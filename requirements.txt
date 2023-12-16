@@ -1,8 +1,8 @@
-click==8.0.4
+typer==0.4.1
 numpy
 seaborn
 matplotlib
-
+setuptools
 
 pandas
 spacy
