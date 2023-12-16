@@ -1,8 +1,8 @@
-typer==0.4.1
+
 numpy
 seaborn
 matplotlib
-setuptools
+
 
 pandas
 spacy
@@ -15,10 +15,4 @@ scikit-learn==1.3.2
 imbalanced_learn==0.8.0
 imblearn==0.0
 
-
-
-nltk==3.8.1
-
-xlrd==2.0
-https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.0.0/en_core_web_sm-3.0.0.tar.gz#egg=en_core_web_sm
 
