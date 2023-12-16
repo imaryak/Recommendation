@@ -178,7 +178,7 @@ ct = ColumnTransformer(transformers = [("nominalpipe", nominal_pipeline, ['neigh
                                        ("ordinalpipe", ordinal_pipeline, ['host_response_time', 
                                                                           'cancellation_policy']),
                                        ("numericpipe", numeric_pipeline, sd_trans.select_dtypes(['int', 'float']).columns)])
-dump(ct, open('Recommendation/notebooks/column_transformer.pkl', 'wb'))
+dump(ct, open('../notebooks/column_transformer.pkl', 'wb'))
 # reorder the df with nominal first, ordinal second, and remaining numeric last
 
 sd_trans = sd_trans[ # nominal below this line
