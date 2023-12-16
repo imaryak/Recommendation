@@ -6,10 +6,10 @@ matplotlib
 
 
 pandas
-spacy==3.0.9
+spacy
 
 scipy==1.11.3
-pydantic==1.8
+pydantic
 scikit-learn==1.3.2
 
 
